@@ -1,0 +1,195 @@
+/* Navbar */
+.navbar {
+  height: 50px;
+  background-color: blueviolet;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.list {
+  display: flex;
+  list-style-type: none;
+}
+.list__item {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.logo {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+/* Home */
+.home {
+  display: flex;
+  padding: 2rem 3rem;
+  justify-content: space-between;
+}
+
+.card {
+  width: 30%;
+  box-shadow: 0px 0px 1.9px rgba(0, 0, 0, 0.045),
+    0px 0px 5.4px rgba(0, 0, 0, 0.065), 0px 0px 13px rgba(0, 0, 0, 0.085),
+    0px 0px 43px rgba(0, 0, 0, 0.13);
+  border-radius: 10px;
+  padding: 1rem;
+}
+.img {
+  width: 100%;
+  object-fit: cover;
+  margin: 20px 0;
+}
+.desc {
+  color: #333;
+  margin-bottom: 1rem;
+  line-height: 2rem;
+}
+.cardButton {
+  border: none;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: #fff;
+  padding: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* POST PAGE */
+.post {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem;
+}
+.postImg {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+.postDesc {
+  padding: 0 100px;
+  font-size: 24px;
+  font-weight: 300;
+  color: gray;
+  margin-top: 50px;
+}
+.postLongDesc {
+  padding: 100px;
+  padding-top: 50px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* LOGIN PAGE */
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  width: 60%;
+  height: 75%;
+  box-shadow: 0px 0px 1.9px rgba(0, 0, 0, 0.045),
+    0px 0px 5.4px rgba(0, 0, 0, 0.065), 0px 0px 13px rgba(0, 0, 0, 0.085),
+    0px 0px 43px rgba(0, 0, 0, 0.13);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.left,
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.center {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.or {
+  border: 2px solid lightgray;
+  border-radius: 50%;
+  padding: 10px;
+  color: gray;
+  background-color: white;
+  font-weight: bold;
+}
+
+.line {
+  width: 0.5px;
+  height: 70%;
+  background-color: lightgray;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: -1;
+}
+.loginButton {
+  width: 150px;
+  padding: 15px 25px;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.google {
+  background-color: #df4930;
+}
+.facebook {
+  background-color: #507cc0;
+}
+.github {
+  background-color: black;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+input {
+  width: 200px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.submit {
+  width: 200px;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.loginTitle {
+  position: absolute;
+  top: 150px;
+  color: lightgray;
+}
+.link {
+  color: inherit;
+  text-decoration: none;
+}
